@@ -5,8 +5,36 @@
 }
 
 body{
-	font-family: "Times New Roman", times, Georgia, Serif;
-	line-height:1.3;
+	font-family: helvetica, arial, Serif;
+	line-height: 1.3;
+}
+
+header{
+	margin-top: 20px;
+	margin-bottom: 5px;
+}
+
+section{
+	padding:3em;
+}
+
+#intro {
+	background:url(../images/meal_outdoor_popco.jpg);
+	background-size:cover;
+	background-repeat:no-repeat;
+	height: 90vh;
+	padding: 20px;
+}
+
+h1{
+	font-size: 2.2em;
+	color: #8AB29A;
+}
+
+.slogan {
+	font-style: italic;
+	font-size: 1.5em;
+	margin-top: 20px
 }
 
 a {
@@ -14,30 +42,10 @@ a {
 	text-decoration: none;
 }
 
-header{
-	/* text-align: center; */
-	margin-top: 20px;
-	margin-bottom: 20px;
+li {
+	margin-left:1.25em;
 }
 
-section{
-	/* text-align: center; */
-	padding:5em 0;
-}
-
-main{
-	font-size: 1em
-}
-
-h1{
-	/* text-align: center; */
-	font-size: 2.2em;
-	color: #8AB29A;
-}
-
-h2{
-	margin-top: 20px
-}
 blockquote {
 	background-color: #B27B78;
 	color: #FFFFFF;
@@ -45,15 +53,29 @@ blockquote {
 	font-style: italic;
 	font-size: 1.5em;
 }
+
+#timesquote, cite {
+	font-style: italic;
+	color: #000000;
+	font-size: 0.8em;
+}
+
 q {
 	display:block;
 }
+
+h4{
+	color: #8AB29A;
+	font-size: 1.3em;
+}
+
 .testimonial{
 	background-color: #8AB29A;
 }
 
-ol{
-	padding-left:1.25em;
+h5{
+	color: #B27B78;
+	font-size: 1.3em;
 }
 
 footer{
@@ -62,18 +84,7 @@ footer{
 	padding-bottom: 20px;
 }
 
-#slogan {
-	font-style: italic;
-	font-size: 1.5em;
-}
 
-#timesquote {
-	font-style: italic;
-	text-align: right;
-}
-#intro {
-	background:url(../images/meal_outdoor_popco.jpg);
-	background-size:cover;
-	background-repeat:no-repeat;
-	height: 90vh;
-}
+
+
+
