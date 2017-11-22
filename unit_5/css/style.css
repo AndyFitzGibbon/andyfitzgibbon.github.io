@@ -4,6 +4,7 @@
 	padding: 0;
 	margin: 0;
 	box-sizing:border-box;
+	border: 1px solid black;
 }
 
 body{
@@ -15,19 +16,25 @@ body{
 header{
 	text-align: center;
 	padding: 1em 0 .5em;
+	background-color: #FFED74;
 }
 
 header nav a {
 	margin: 0 1em;
 	font-size: .8em;
 	text-transform: lowercase;
+	background-color: #E8C66A;
 }
 
 section, blockquote{
-	padding:2em;
+	padding: 1em 2em;
+}
+
+section{
+	background-color: #E89C6C;
+}
 
 p{
-	padding-bottom: 0.8em;
 	font-size: 1em;
 }
 
@@ -38,10 +45,9 @@ h1{
 }
 
 h2 {
-		padding-bottom: .5em;
-		font-family: 'Pangolin', cursive;
-		font-size: 1.3em;
-		color: #B27B78; /*red*/
+	font-family: 'Pangolin', cursive;
+	font-size: 1.3em;
+	color: #B27B78; /*red*/
 		/*color: #8AB29A;*/  /*green*/
 }
 
@@ -61,53 +67,54 @@ blockquote {
 	color: #FFFFFF;
 	font-size: 1.6em;
 	line-height: 1.4em;
-	width: 27.5em;
 }
 
 q {
 	display:block;
 }
 
+ul{
+	padding-left: 1em;
+}
+
 footer{
 	text-align: center;
 	padding: 1em 0;
+	background-color: #FF957E;
 }
 
 footer a{
 	text-transform: lowercase;
 	margin: 0 1em;
-	font-size: 1em
+	font-size: 1em;
+	background-color: black;
+}
+
+aside{
+	width: 33%;
 }
 
 #wrapper{
-	background-color: purple;
 	width: 1024px;
 	margin: 0 auto;
-	border: 2px solid black;
 }
 
 .slogan {
 	font-style: none;
 	font-size: 1.8em;
 	font-family: 'Pangolin', cursive;
-	padding-bottom: 1em;
 }
 
 .testimonial{
 	background-color: #8AB29A;
 }
 
-#intro, #why_care{
-	padding: 0 2em;
-}
-
-#logo{
-	font-family: 'Cabin Sketch', cursive;
-	padding: .7em 0;
+#intro{
+	width: 66%;
 }
 
 #why_care {
-	width: 27.5em;
+	width: 66%;
 }
 
 #why_care p {
@@ -119,8 +126,32 @@ footer a{
 	font-family: 'Pangolin', cursive;
 }
 
+#rationale{
+	width: 100%;
+}
+
+#about_us{
+	width: 66%;
+}
+
+#suppliers{
+	width: 33%;
+}
+
+#partners{
+	width: 33%;
+}
+
 #timesquote, cite {
 	font-style: italic;
 	color: #000000;
 	font-size: 0.8em;
+}
+
+.clearfix:after { 
+   content: "."; 
+   visibility: hidden; 
+   display: block; 
+   height: 0; 
+   clear: both;
 }
