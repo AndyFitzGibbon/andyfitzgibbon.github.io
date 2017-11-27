@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC|Cabin+Sketch|Pangolin|Rock+Salt|Shadows+Into+Light+Two');
+
+/*font-family: 'Cabin Sketch', cursive;
+font-family: 'Pangolin', cursive;
+font-family: 'Rock Salt', cursive;
+font-family: 'Amatic SC', cursive;
+font-family: 'Shadows Into Light Two', cursive;*/
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing:border-box;
+}
+
+body{
+	font-family: perpetua, hoefler text, serif;
+	line-height: 1.3;
+	font-size: 16pt;
+}
+
+header{
+	/* padding: .5em; */
+/*    background-color: #FFED74;
+*/  background-color: #FFF19E;
+    height: 80px;
+    /* margin: auto; */
+}
+
+header img{
+	display: block;
+    float: left;
+/*    background-color: red;
+*/    margin: .4em;
+}
+
+header nav{
+    float: right;
+/*    background-color: blue;
+*/    margin: 1.2em;
+}
+
+header nav a {
+    /* margin: 0 .5em; */
+    font-size: .8em;
+    text-transform: lowercase;
+    /* background-color: #E8C66A; */
+    /* border: 0.1px solid white; */
+    /* padding: 1em; */
+    margin: 0 1em;
+    /* background-color: grey; */
+}
+
+a {
+	color: black;
+	text-decoration: none;
+	/*border-bottom: .05em solid black;
+	padding-bottom: .1em;*/
+}
+
+a:hover{
+	color: #FF0000;
+}
+
+section, blockquote{
+	padding: 1em 2em;
+}
+
+section{
+/*	background-color: #E89C6C;
+*/}
+
+p{
+	font-size: 1em;
+}
+
+#intro{
+	float: right;
+	width: 70%;
+	margin: 0;
+	padding: 0;
+}
+
+h1{
+	font-size: 2.5em;
+    font-family: 'Rock Salt', cursive;
+    color: #F9FCFF;
+    padding: 1em 0;
+    text-align: center;
+}
+
+#intro h2{
+	text-transform: lowercase;
+	font-family: perpetua, hoefler text, serif;
+	text-align: center;
+	color: #F9FCFF;
+}
+
+hr{
+	margin: 0.5em 11.6em;
+    width: 10em;
+    border-style: solid;
+    border-width: 1px;
+    color: #F9FCFF;
+}
+
+#slogan {
+	font-size: 2em;
+	font-family: perpetua, hoefler text, serif;
+	color: #001038;
+	font-weight: 700;
+	margin: 1em;
+	text-align: center;
+}
+
+h2 {
+	font-family: 'Pangolin', cursive;
+	font-size: 1.3em;
+	color: #B27B78; /*red*/
+		/*color: #8AB29A;*/  /*green*/
+}
+
+
+blockquote {
+	background-color: #B27B78;
+	color: #FFFFFF;
+	font-size: 1.6em;
+	line-height: 1.4em;
+}
+
+q {
+	display:block;
+}
+
+ul{
+	padding-left: 1em;
+}
+
+footer{
+	text-align: center;
+	padding: 1em 0;
+	background-color: #FF957E;
+}
+
+footer a{
+	text-transform: lowercase;
+	margin: 0 1em;
+	font-size: 1em;
+	background-color: black;
+}
+
+aside{
+	width: 33%;
+}
+
+#wrapper{
+	width: 1024px;
+	margin: 0 auto;
+}
+
+#hero{
+	background:url(../images/full_family_IMG_7485.jpg);
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    height: 175vh;
+}
+
+
+
+.testimonial{
+	background-color: #8AB29A;
+}
+
+#why_care {
+	width: 66%;
+}
+
+#why_care p {
+	font-size: 1em;
+}
+
+#why_care a {
+	font-size: 1.3em;
+	font-family: 'Pangolin', cursive;
+}
+
+#rationale{
+	width: 100%;
+}
+
+#about_us{
+	width: 66%;
+}
+
+
+#timesquote, cite {
+	font-style: italic;
+	color: #000000;
+	font-size: 0.8em;
+}
+
+#two_column {
+    background-color: #FFB7CF;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+#suppliers{
+	width: 30%;
+	background-color: #E582A2;
+    border: 1px black solid;
+    padding: 20px;
+    float: left;
+}
+
+#partners{
+	width: 62%;
+	background-color: #E55B88;
+    border: 1px black solid;
+    padding: 20px;
+    float: right;
+}
+
+.clearfix:after { 
+   content: "."; 
+   visibility: hidden; 
+   display: block; 
+   height: 0; 
+   clear: both;
+}
