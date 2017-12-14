@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css?family=Waiting+for+the+Sunrise');
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing:border-box;
+}
+
+body{
+	font-family: perpetua, hoefler text, serif;
+	line-height: 1.3;
+	font-size: 22px;
+}
+
+header{
+	background-color: #DEC7B5;
+	height: 80px;
+}
+
+header img{
+	display: block;
+    float: left;
+	margin: .4em;
+}
+
+header nav{
+    float: right;
+	margin: 1.2em;
+}
+
+header nav a {
+    font-size: .8em;
+    text-transform: lowercase;
+    margin: 0 1em;
+}
+
+a {
+	color: black;
+	text-decoration: none;
+}
+
+a:hover{
+	color: #A7677E;
+}
+
+section, blockquote{
+	padding: 1em 2em;
+}
+
+p{
+	font-size: 1em;
+	padding: 0.4em 0;
+}
+
+h1{
+	font-size: 4.5em;
+	font-family: 'Waiting for the Sunrise', cursive;
+    color: #F9FCFF;
+    padding: 0.3em 0;
+}
+
+h2 {
+	font-family: 'Waiting for the Sunrise', cursive;
+	font-size: 1.4em;
+	font-weight: 800;
+	color: #75845C;
+	padding: 0.3em 0;
+	text-transform: uppercase;
+}
+
+h3{
+	font-size: 2.5em;
+	font-family: 'Waiting for the Sunrise', cursive;
+	font-weight: 800;
+	color: #DEC7B5;
+	padding: 0.1em 0;
+}
+
+hr{
+	margin: 0.5em 11.3em;
+    width: 10em;
+    border-style: solid;
+    border-width: 1px;
+    color: #F9FCFF;
+}
+
+ul{
+	list-style-type: none;
+}
+
+li{
+	padding: 0.4em 0;
+}
+
+blockquote {
+	background-color: #75845C;
+	color: #FFFFFF;
+	font-size: 1.6em;
+	line-height: 1.4em;
+	float: left;
+}
+
+blockquote span {
+	font-size: 1.8em;
+}
+
+q {
+	display:block;
+}
+
+footer{
+	text-align: center;
+	padding: 1em 0;
+	background-color: #A7677E;
+}
+
+footer a:hover{
+	color: #DEC7B5;
+}
+
+#intro{
+	float: right;
+	width: 70%;
+	margin: 0;
+	padding: 0;
+    text-align: center;
+}
+
+#hero{
+	background:url(../images/full_family_IMG_7485.jpg);
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    height: 175vh;
+}
+
+#intro h2{
+	text-transform: lowercase;
+	font-family: perpetua, hoefler text, serif;
+	color: #F9FCFF;
+}
+
+#slogan {
+	font-size: 2em;
+	font-family: perpetua, hoefler text, serif;
+	color: #001038;
+	font-weight: 700;
+	margin: 1em;
+}
+
+#why_care {
+	width: 66%;
+	float: left;
+}
+
+#cta{
+	float: right;
+    width: 27.5%;
+    background-color: #A7677E;
+    border-radius: 5px;
+    margin: 1.5em 2em 1.5em 1em;
+    height: 100%;
+	padding: 1em;
+}
+
+#cta p{
+	font-size: 1.1em;
+}
+
+#cta span a{
+	font-weight: 800;
+}
+
+#cta a:hover{
+	color: #DEC7B5;
+}
+
+#rationale{
+	width: 100%;
+	margin-bottom: .5em;
+}
+
+#timesquote, cite {
+	font-style: italic;
+	color: #001038;
+	font-size: 0.7em;
+}
+
+#about_us{
+	width: 50%;
+	float: left;
+}
+
+.testimonial{
+	background-color: white;
+	width: 50%;
+	font-size: 1.5em;
+	color: #B8896C;
+	float: left;
+	clear: left;
+}
+
+#about_img{
+	width: 50%;
+	float: right;
+	padding: 0;
+}
+
+#three_column {
+    background-color: #DEC7B5;
+    padding: 1em 2em;
+    float: left;
+}
+
+#suppliers{
+	width: 30.19%;
+    float: left;
+}
+
+#partners{
+	width: 30.19%;
+    float: left;
+    margin: 0 2em;
+}
+
+#sponsors{
+	width: 30.19%;
+    float: left;
+}
+
+#wrapper{
+	width: 1024px;
+	margin: 0 auto;
+}
+
+.clearfix:after { 
+   content: "."; 
+   visibility: hidden; 
+   display: block; 
+   height: 0; 
+   clear: both;
+}
