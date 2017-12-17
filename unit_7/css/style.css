@@ -14,7 +14,7 @@ body{
 
 header{
 	background-color: #DEC7B5;
-	height: 80px;
+	height: 3.6em;
 }
 
 header img{
@@ -210,28 +210,19 @@ footer a:hover{
 
 #three_column {
     background-color: #DEC7B5;
-    padding: 1em 2em;
+    padding: 0 1em;
     float: left;
 }
 
-#suppliers{
-	width: 30.19%;
+#suppliers, #partners, #sponsors{
+	width: 33%;
     float: left;
-}
+    padding: 1em;
 
-#partners{
-	width: 30.19%;
-    float: left;
-    margin: 0 2em;
-}
-
-#sponsors{
-	width: 30.19%;
-    float: left;
 }
 
 #wrapper{
-	width: 1024px;
+	width: 95%;
 	margin: 0 auto;
 }
 
@@ -241,4 +232,19 @@ footer a:hover{
    display: block; 
    height: 0; 
    clear: both;
+}
+
+@media screen and (min-width: 1800px){
+	body{
+		font-size:26px;
+	}
+	#wrapper{
+		width: 1,710px;
+	}
+}
+
+@media screen and (max-width: 1080px) {
+#why_care{
+	width: 60%;
+	}
 }
