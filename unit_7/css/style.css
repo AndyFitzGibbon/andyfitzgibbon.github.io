@@ -92,14 +92,6 @@ li{
 	padding: 0.4em 0;
 }
 
-blockquote {
-	background-color: #75845C;
-	color: #FFFFFF;
-	font-size: 1.6em;
-	line-height: 1.4em;
-	float: left;
-}
-
 blockquote span {
 	font-size: 1.8em;
 }
@@ -114,6 +106,11 @@ footer{
 	background-color: #A7677E;
 }
 
+footer a{
+	font-weight: normal;
+
+}
+
 footer a:hover{
 	color: #DEC7B5;
 }
@@ -122,7 +119,7 @@ footer a:hover{
 	float: right;
 	width: 70%;
 	margin: 0;
-	padding: 0;
+	padding: 0 1em;
     text-align: center;
 }
 
@@ -133,13 +130,18 @@ footer a:hover{
     background-size: cover;
     position: relative;
     width: 100%;
-    height: 175vh;
+    height: 60em;
 }
 
 #intro h2{
 	text-transform: lowercase;
 	font-family: perpetua, hoefler text, serif;
 	color: #F9FCFF;
+	width: max-content;
+	margin: auto;
+	border-top: 2px white solid;
+	border-bottom: 2px white solid;
+	padding: 0.5em;
 }
 
 #slogan {
@@ -150,28 +152,29 @@ footer a:hover{
 	margin: 1em;
 }
 
+.two_column{
+	background-color: #A7677E;
+	width: 100%;
+}
+
 #why_care {
 	width: 66%;
 	float: left;
+	background-color: white;
 }
 
 #cta{
 	float: right;
-    width: 27.5%;
-    background-color: #A7677E;
-    border-radius: 5px;
-    margin: 1.5em 2em 1.5em 1em;
+    width: 34%;
     height: 100%;
-	padding: 1em;
+	padding: 1em 2em;
 }
 
-#cta p{
+#cta p, a{
 	font-size: 1.1em;
+	font-weight: bold;
 }
 
-#cta span a{
-	font-weight: 800;
-}
 
 #cta a:hover{
 	color: #DEC7B5;
@@ -179,7 +182,11 @@ footer a:hover{
 
 #rationale{
 	width: 100%;
-	margin-bottom: .5em;
+	background-color: #75845C;
+	color: #FFFFFF;
+	font-size: 1.6em;
+	line-height: 1.4em;
+	float: left;
 }
 
 #timesquote, cite {
@@ -189,20 +196,26 @@ footer a:hover{
 }
 
 #about_us{
+	padding: 0;
+}
+
+#about_us article{
 	width: 50%;
 	float: left;
+	padding: 1em 2em;
 }
 
 .testimonial{
-	background-color: white;
 	width: 50%;
 	font-size: 1.5em;
 	color: #B8896C;
 	float: left;
 	clear: left;
+	font-size: 1.6em;
+	line-height: 1.4em;
 }
 
-#about_img{
+#about_us img{
 	width: 50%;
 	float: right;
 	padding: 0;
@@ -243,8 +256,34 @@ footer a:hover{
 	}
 }
 
-@media screen and (max-width: 1080px) {
-#why_care{
-	width: 60%;
+@media screen and (max-width: 1180px){
+	#about_us img{
+		margin-top: 4em;
 	}
+}
+
+@media screen and (max-width: 1036px){
+	h1{
+		font-size: 4em;
+	}
+}
+
+@media screen and (max-width: 1028px) {
+	#why_care{
+		width: 60%;
+		}
+	#cta{
+		width: 40%;
+	}	
+
+@media screen and (max-width: 995px) {
+	.testimonial {
+		font-size: 1.5em;
+	}	
+
+@media screen and (max-width: 935px) {
+	.testimonial {
+		font-size: 1.4em;
+	}		
+
 }
