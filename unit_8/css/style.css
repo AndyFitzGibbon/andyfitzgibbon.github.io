@@ -484,10 +484,62 @@ img#step{
 }
 
 @media screen and (max-width: 413px) {
+	header img{
+		height: 2.2em;
+	}
 	h1{
 		font-size: 3.2em;
 	}
+}
+
+@media screen and (max-width: 381px) {
+	#intro{
+		padding: 1em;
+	}
 	header img{
-		height: 2.2em;
+		height: 2em;
+	}
+	h1{
+		font-size: 3em;
+	}
+	#intro h2{
+		font-size: .8em;
+	}
+	#slogan {
+		font-size: 1.3em;
+		margin: 0.4em;
+	}
+}
+
+@media screen and (max-width: 370px) {
+	nav a:nth-of-type(4) {
+		display: none;
+	}
+	nav a{
+		width: 32%;
+	}
+}
+
+@media screen and (max-width: 360px) {
+	body{
+		font-size: 20px;
+	}
+	.testimonial, #rationale {
+		font-size: 1.1em;
+	}
+	.testimonial{
+		font-weight: bold;
+	}
+}
+
+@media screen and (max-width: 326px) {
+	#intro{
+		padding: 0 1em;
+	}
+	h1{
+		line-height: 1.1em;
+	}
+	#slogan {
+		font-size: 1.2em;
 	}
 }
