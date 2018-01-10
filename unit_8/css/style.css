@@ -257,7 +257,7 @@ img#step{
 		font-size:26px;
 	}
 	#wrapper{
-		width: 1,710px;
+		width: 1710px;
 	}
 }
 
@@ -279,7 +279,7 @@ img#step{
 		font-size: 1.2em;
 	}	
 
-@media screen and (max-width: 1036px){
+@media screen and (max-width: 1036px) {
 	h1{
 		font-size: 4em;
 	}
@@ -336,7 +336,6 @@ img#step{
 
 @media screen and (max-width: 905px) {
 	.two_column{
-		background-color: none;
 		width: 100%;
 	}	
 	#cta{
@@ -361,7 +360,6 @@ img#step{
 	#why_care {
 		width: 100%;
 		float: left;
-		background-color: none;
 	}
 	#rationale {
 		font-size: 1.4em;
