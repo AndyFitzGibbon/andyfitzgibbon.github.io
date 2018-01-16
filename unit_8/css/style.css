@@ -34,12 +34,26 @@ nav a {
     margin: 0 1em;
 }
 
-a {
+a{
+	color: black;
+	text-decoration: none;
+}
+
+a:link{
+	color: black;
+	text-decoration: none;
+}
+
+a:visted{
 	color: black;
 	text-decoration: none;
 }
 
 a:hover{
+	color: #A7677E;
+}
+
+a:active{
 	color: #A7677E;
 }
 
@@ -464,7 +478,7 @@ img#step{
 		display: none;
 	}
 	#mh1{
-		display: inline;
+		display: block;
 	}
 	header img{
 		height: 2.3em;
