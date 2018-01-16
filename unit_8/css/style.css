@@ -496,15 +496,6 @@ img#step{
 }
 
 @media screen and (max-width: 414px) {
-	header img{
-		height: 2.2em;
-	}
-	h1{
-		font-size: 2.8em;
-	}
-}
-
-@media screen and (max-width: 381px) {
 	#intro{
 		padding: 1em;
 	}
@@ -512,7 +503,7 @@ img#step{
 		height: 2em;
 	}
 	h1{
-		font-size: 3em;
+		font-size: 2.6em;
 	}
 	#intro h2{
 		font-size: .8em;
@@ -520,6 +511,21 @@ img#step{
 	#slogan {
 		font-size: 1.3em;
 		margin: 0.4em;
+	}
+}
+
+@media screen and (max-width: 381px) {
+	header img{
+		height: 1.9em;
+	}
+	h1{
+		font-size: 2.4em;
+	}
+	#intro h2{
+		font-size: .7em;
+	}
+	#slogan {
+		font-size: 1.2em;
 	}
 }
 
@@ -552,6 +558,6 @@ img#step{
 		line-height: 1.1em;
 	}
 	#slogan {
-		font-size: 1.2em;
+		font-size: 1.1em;
 	}
 }
