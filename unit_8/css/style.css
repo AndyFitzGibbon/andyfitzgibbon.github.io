@@ -509,7 +509,7 @@ img#step{
 		font-size: .8em;
 	}
 	#slogan {
-		font-size: 1.3em;
+		font-size: 1.1em;
 		margin: 0.4em;
 	}
 }
@@ -525,7 +525,7 @@ img#step{
 		font-size: .7em;
 	}
 	#slogan {
-		font-size: 1.2em;
+		font-size: 1em;
 	}
 }
 
@@ -556,8 +556,5 @@ img#step{
 	}
 	h1{
 		line-height: 1.1em;
-	}
-	#slogan {
-		font-size: 1.1em;
 	}
 }
