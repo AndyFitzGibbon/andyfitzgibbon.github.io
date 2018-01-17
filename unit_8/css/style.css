@@ -414,11 +414,12 @@ img#step{
 		margin: 0;
 	}
 	nav a{
-		display: inline-block;
-		width: 19.3%;
+		display: block;
+		width: 20%;
 		text-align: center;
 		padding: .5em 1em;
 		margin: 0;
+		float: left;
 	}
 }
 
@@ -467,7 +468,7 @@ img#step{
 		display: none;
 	}
 	nav a{
-		width: 24%;
+		width: 25%;
 	}
 }
 
@@ -546,7 +547,7 @@ img#step{
 		display: none;
 	}
 	nav a{
-		width: 32%;
+		width: 33.32%;
 	}
 }
 
