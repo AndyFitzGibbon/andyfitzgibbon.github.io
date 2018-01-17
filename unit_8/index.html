@@ -7,6 +7,7 @@
 			<!--[if lt IE 9]>
             <script src="bower_components/html5shiv/dist/html5shiv.js"></script>
         <![endif]-->
+        	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	</head>
 	<body>
 		<div id="wrapper">
@@ -47,7 +48,7 @@
 				</div>
 				<blockquote id="rationale">
 					<q><span>The biggest study</span> into organic food has found that it is more nutritious than ordinary produce and may help to lengthen people's lives. The evidence from the £12m [$20m AUD] four-year project will end years of debate and is likely to overturn government advice that eating organic food is no more than a lifestyle choice.</q>
-					<cite><a id="timesquote" href="https://www.thetimes.co.uk/article/official-organic-really-is-better-fhlj576rmcp" target="_blank">The Sunday Times, 28 Oct 2007, Jon Ungoed-Thomas</a></cite>
+					<cite><a id="timesquote" href="https://www.thetimes.co.uk/article/official-organic-really-is-better-fhlj576rmcp" target="_blank">The Sunday Times, 28 Oct 2007</a></cite>
 				</blockquote>
 				<div id="about_us" class="clearfix">
 					<img id="wide" src="images/top_family_IMG_7645.jpg" alt="About Us Photo" title="About Us Photo">
@@ -92,6 +93,38 @@
 				<p>0400 000 000</p>
 				<a href="mailto:popco.books@gmail.com">popco.books@gmail.com</a>
 			</footer>
-		</div>	
+		</div>
+		<script>$('a[href*="#"]')
+  // Remove links that don't actually link to anything
+  .not('[href="#"]')
+  .not('[href="#0"]')
+  .click(function(event) {
+    // On-page links
+    if (
+      location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') 
+      && 
+      location.hostname == this.hostname
+    ) {
+      // Figure out element to scroll to
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+      // Does a scroll target exist?
+      if (target.length) {
+        // Only prevent default if animation is actually gonna happen
+        event.preventDefault();
+        $('html, body').animate({
+          scrollTop: target.offset().top
+        }, 1000, function() {
+          // Callback after animation
+          // Must change focus!
+          var $target = $(target);
+          $target.focus();
+          if ($target.focus(); // Set focus again
+          };
+        });
+      }
+    }
+  });
+      </script>
 	</body>
 </html>
