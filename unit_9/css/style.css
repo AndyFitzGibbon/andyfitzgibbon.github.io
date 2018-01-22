@@ -1,0 +1,573 @@
+@import url('https://fonts.googleapis.com/css?family=Waiting+for+the+Sunrise');
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing:border-box;
+}
+
+body{
+	font-family: perpetua, hoefler text, serif;
+	line-height: 1.3;
+	font-size: 22px;
+}
+
+header{
+	background-color: #DEC7B5;
+}
+
+header img{
+	display: block;
+    float: left;
+	margin: .4em;
+	height: 2.7em;
+}
+
+nav{
+    float: right;
+	margin: 1.2em;
+}
+
+nav a {
+    font-size: .8em;
+    text-transform: lowercase;
+    margin: 0 1em;
+}
+
+a{
+	color: black;
+	text-decoration: none;
+}
+
+a:link{
+	color: black;
+	text-decoration: none;
+}
+
+a:visted{
+	color: black;
+	text-decoration: none;
+}
+
+a:hover{
+	color: #A7677E;
+}
+
+a:active{
+	color: #A7677E;
+}
+
+section, blockquote{
+	padding: 1em 2em;
+}
+
+p{
+	font-size: 1em;
+	padding: 0.4em 0;
+}
+
+h1{
+	font-size: 4.5em;
+	font-family: 'Waiting for the Sunrise', cursive;
+    color: #F9FCFF;
+    padding: 0.3em 0;
+}
+
+h2 {
+	font-family: 'Waiting for the Sunrise', cursive;
+	font-size: 1.4em;
+	color: #75845C;
+	padding: 0.3em 0;
+	text-transform: uppercase;
+}
+
+h3{
+	font-size: 2.5em;
+	font-family: 'Waiting for the Sunrise', cursive;
+	color: #DEC7B5;
+	padding: 0.1em 0;
+}
+
+ul{
+	list-style-type: none;
+}
+
+li{
+	padding: 0.4em 0;
+}
+
+blockquote span {
+	font-size: 1.8em;
+}
+
+q {
+	display:block;
+}
+
+footer{
+	text-align: center;
+	padding: 1em 0;
+	background-color: #A7677E;
+}
+
+footer h3{
+	font-size: 1.5em;
+	color: #DEC7B5;
+}
+
+footer a{
+	font-weight: normal;
+}
+
+footer a:hover{
+	color: #DEC7B5;
+}
+
+#intro{
+	float: right;
+	width: 70%;
+	margin: 0;
+	padding: 0 1em;
+    text-align: center;
+}
+
+#hero{
+	background:url(../images/full_family_IMG_7485.jpg);
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    height: 60em;
+}
+
+#intro h2{
+	text-transform: lowercase;
+	font-family: perpetua, hoefler text, serif;
+	color: #F9FCFF;
+	width: max-content;
+	margin: auto;
+	border-top: 2px white solid;
+	border-bottom: 2px white solid;
+	padding: 0.5em;
+}
+
+#slogan {
+	font-size: 2em;
+	font-family: perpetua, hoefler text, serif;
+	color: #001038;
+	font-weight: 700;
+	margin: 1em;
+}
+
+.two_column{
+	background-color: #A7677E;
+	width: 100%;
+}
+
+#why_care {
+	width: 66%;
+	float: left;
+	background:url(../images/low_contrast_linen.png);
+	background-color: white;
+}
+
+#cta{
+	float: right;
+    width: 34%;
+    height: 100%;
+	padding: 1em 2em;
+}
+
+#cta p, a{
+	font-size: 1.1em;
+	font-weight: bold;
+}
+
+#cta a:hover{
+	color: #DEC7B5;
+}
+
+#rationale{
+	width: 100%;
+	background-color: #75845C;
+	color: #FFFFFF;
+	font-size: 1.6em;
+	line-height: 1.4em;
+	float: left;
+}
+
+#timesquote, cite {
+	font-style: italic;
+	color: #001038;
+	font-size: 0.7em;
+}
+
+#about_us{
+	padding: 0;
+	background:url(../images/low_contrast_linen.png);
+	background-color: white;
+}
+
+#about_us article{
+	width: 50%;
+	float: left;
+	padding: 1em 2em;
+}
+
+.testimonial{
+	width: 50%;
+	font-size: 1.5em;
+	color: #B8896C;
+	float: left;
+	clear: left;
+	font-size: 1.6em;
+	line-height: 1.4em;
+}
+
+img#wide{
+	width: 50%;
+	float: right;
+	padding: 0;
+}
+
+img#step{
+	display: none;
+}
+
+#three_column {
+    background-color: #DEC7B5;
+    padding: 0 1em;
+    float: left;
+}
+
+#suppliers, #partners, #sponsors{
+	width: 33%;
+    float: left;
+    padding: 1em;
+}
+
+#mh1{
+	display: none;
+}
+
+#wrapper{
+	width: 100%;
+	margin: 0 auto;
+}
+
+.clearfix:after { 
+   content: "."; 
+   visibility: hidden; 
+   display: block; 
+   height: 0; 
+   clear: both;
+}
+
+@media screen and (min-width: 1800px){
+	body{
+		font-size:26px;
+	}
+	#wrapper{
+		width: 1710px;
+	}
+}
+
+@media screen and (max-width: 1180px){
+	img#wide{
+		width: 60%;
+	}
+		#about_us article{
+		width: 40%;
+	}
+	.testimonial{
+		width:40%;
+		font-size: 1.4em;
+	}
+}
+
+@media screen and (max-width: 1085px) {
+	.testimonial {
+		font-size: 1.2em;
+	}	
+
+@media screen and (max-width: 1036px) {
+	h1{
+		font-size: 4em;
+	}
+}
+
+@media screen and (max-width: 1028px) {
+	#why_care{
+		width: 60%;
+		}
+	#cta{
+		width: 40%;
+	}	
+}
+
+@media screen and (max-width: 960px) {
+	img#wide {
+		display: none;
+	}
+	img#step {
+		display: initial;
+		width: 50%;
+		float: right;
+		padding: 0;
+	}
+	#about_us article{
+		width: 50%;
+	}
+	.testimonial {
+		width: 100%;
+		font-size: 1.3em;
+		background-color: #A7677E;
+		color: white;
+	}	
+}
+
+@media screen and (max-width: 928px) {
+	#hero{
+		background:url(../images/full_family_IMG_step1_7485.jpg);
+		background-position: center;
+    	background-repeat: no-repeat;
+    	background-size: cover;
+    	position: relative;
+    	width: 100%;
+    	height: 60em;
+	}		
+	#intro{
+		width: 100%;
+		float: none;
+		margin: 0;
+		padding: 0 1em;
+	    text-align: center;
+	}
+}
+
+@media screen and (max-width: 905px) {
+	.two_column{
+		width: 100%;
+	}	
+	#cta{
+		float: left;
+		width: 100%;
+		background-color: #A7677E;
+		border-top: inset 2px;
+	}
+	#cta h3{
+		font-size: 1.4em;
+		font-weight: 600;
+		text-transform: uppercase;
+	}
+	#cta p{
+		font-size: 1em;
+		font-weight: bold;
+	}
+	#cta p a{
+		font-size: 1em;
+		font-weight: bold;
+	}
+	#why_care {
+		width: 100%;
+		float: left;
+	}
+	#rationale {
+		font-size: 1.4em;
+	}
+	blockquote span {
+		font-size: 1.6em;
+	}
+}
+
+@media screen and (max-width: 810px) {
+	#suppliers{
+		width: 100%;
+	}
+	#partners, #sponsors{
+		width: 50%;
+		padding-top: 0em;
+	}
+}
+
+@media screen and (max-width: 765px) {
+	h1{
+		font-size: 3.5em;
+	}
+	#intro h2{
+		font-size: 1.2em;
+	}
+	#slogan {
+		font-size: 1.8em;
+	}
+	header img{
+		height: 2.5em;
+	}
+	nav{
+		float: left;
+		background:url(../images/low_contrast_linen.png);
+		background-color: white;
+		width: 100%;
+		text-align: right;
+		padding: 0;
+		margin: 0;
+	}
+	nav a{
+		display: block;
+		width: 20%;
+		text-align: center;
+		padding: .5em 1em;
+		margin: 0;
+		float: left;
+	}
+}
+
+@media screen and (max-width: 700px) {
+	img#step {
+	width: 100%;
+	float: left;
+	}
+	#about_us article{
+	width: 100%;
+	padding: 1em 2em 0em 2em;
+	}
+	.testimonial{
+		background: inherit;
+		color: initial;
+	}
+}
+
+@media screen and (max-width: 658px) {
+	#slogan {
+		font-size: 1.7em;
+	}
+}
+
+@media screen and (max-width: 640px) {
+	#suppliers, #partners, #sponsors{
+	width: 100%;
+	}	
+}
+
+@media screen and (max-width: 600px) {
+	#hero{
+    	height: 40em;
+	}	
+	#intro h2{
+		font-size: 1em;
+	}
+	#slogan {
+		font-size: 1.5em;
+		margin: 0.5em;
+	}
+}
+
+@media screen and (max-width: 564px) {
+	nav a:nth-of-type(5) {
+		display: none;
+	}
+	nav a{
+		width: 25%;
+	}
+}
+
+@media screen and (max-width: 545px) {
+	#mh{
+		display: none;
+	}
+	#mh1{
+		display: block;
+	}
+	header img{
+		height: 2.3em;
+	}
+	h1{
+		padding-top: 0.2em;
+	}
+}
+
+@media screen and (max-width: 523px) {
+	#slogan {
+		font-size: 1.4em;
+	}
+}
+
+@media screen and (max-width: 491px) {
+	.testimonial, #rationale {
+		font-size: 1.2em;
+	}	
+	blockquote span {
+		font-size: 1.4em;
+	}
+	nav a {
+    	font-size: .7em;
+	}
+	#slogan {
+		font-size: 1.3em;
+	}
+}
+
+@media screen and (max-width: 414px) {
+	#intro{
+		padding: 1em;
+	}
+	header img{
+		height: 2em;
+	}
+	h1{
+		font-size: 2.6em;
+	}
+	#intro h2{
+		font-size: .8em;
+	}
+	#slogan {
+		font-size: 1.1em;
+		margin: 0.4em;
+	}
+}
+
+@media screen and (max-width: 381px) {
+	header img{
+		height: 1.9em;
+	}
+	h1{
+		font-size: 2.4em;
+	}
+	#intro h2{
+		font-size: .7em;
+	}
+	#slogan {
+		font-size: 1em;
+	}
+}
+
+@media screen and (max-width: 370px) {
+	nav a:nth-of-type(4) {
+		display: none;
+	}
+	nav a{
+		width: 33.32%;
+	}
+}
+
+@media screen and (max-width: 360px) {
+	body{
+		font-size: 20px;
+	}
+	.testimonial, #rationale {
+		font-size: 1.1em;
+	}
+	.testimonial{
+		font-weight: bold;
+	}
+}
+
+@media screen and (max-width: 326px) {
+	#intro{
+		padding: 0 1em;
+	}
+	h1{
+		line-height: 1.1em;
+	}
+}
