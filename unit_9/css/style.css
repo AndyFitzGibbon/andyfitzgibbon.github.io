@@ -123,6 +123,10 @@ footer a:hover{
 	color: #DEC7B5;
 }
 
+iframe{
+	width: 100%;
+}
+
 #intro{
 	float: right;
 	width: 70%;
