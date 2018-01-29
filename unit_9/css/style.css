@@ -82,7 +82,7 @@ h2 {
 }
 
 h3{
-	font-size: 2.5em;
+	font-size: 2em;
 	font-family: 'Waiting for the Sunrise', cursive;
 	color: #DEC7B5;
 	padding: 0.1em 0;
@@ -125,6 +125,15 @@ footer a:hover{
 
 iframe{
 	width: 100%;
+}
+
+nav a:nth-child(1) {
+	font-weight: bold;
+	color: white;
+}
+
+nav a:nth-child(1):hover {
+	color: #A7677E;
 }
 
 #intro{
@@ -183,9 +192,8 @@ iframe{
 	padding: 1em 2em;
 }
 
-#cta p, a{
+#cta p{
 	font-size: 1.1em;
-	font-weight: bold;
 }
 
 #cta a:hover{
@@ -424,6 +432,10 @@ img#step{
 		padding: .5em 1em;
 		margin: 0;
 		float: left;
+	}
+	nav a:nth-child(1) {
+	color: black;
+	font-weight: bold;
 	}
 }
 
